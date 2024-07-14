@@ -1,0 +1,74 @@
+.main-pomo {
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/41bd/8aef/12af99ded8eec37cc301d5e302c21f72?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tq-ILKHuVLVS6L8-giKotLSB283mp1p0rKHy2PTXR4OJO5uBZHH9~hLXKTOvRlSgknFrpzQDy~b8EkX0Gth8OQ77MKfZ2w4lmyTUnq7ybQkM3PC989VFQQ91FcWMHUB-MhzYecRj75BQrBGNcBItU1PTi1i6okIv58qXKAuHZaLs7RO3ZaVqYEnrgZnybr1oARQTvOpqFL6K5vfcWs6bQMDdXaynV1zk1w8HdgqMNlnSIivhoavKGtd5-Q2130JFjbzXMOSlnjcxRU6Dw0yk8S5ji6DNYT1qWw0Ao8gXtWcft0FODuF72MPOq~mJELgEWGZ~FlSBH6VadEc3ImmCNA__);
+}
+body{
+    overflow: hidden;
+}
+.todo{
+    background-color: rgb(40, 40, 40);
+}
+
+.focus {
+
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+
+    background: linear-gradient(to right, rgb(244, 244, 244), rgb(125, 141, 231), rgb(111, 123, 123));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+
+}
+
+.img {
+    height: 200px;
+}
+.calendar{
+   width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+}
+.list{
+    display: flex;
+justify-content: space-between;
+}
+.widget{
+    width: 500px;
+    height: 300px;
+
+
+}
+.stick-main{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goals{
+    color: white;
+    height: 170px;
+    padding: 20px;
+    background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+
+}
+
+#goal{
+outline: none;
+}
